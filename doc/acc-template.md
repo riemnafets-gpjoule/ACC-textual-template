@@ -34,7 +34,7 @@ _Liste der wichtigsten Qualitätsanforderungen der Komponente, typischerweise ni
 
 ### Business Context
 
-_Wichtige Schnittstellen zur Außenwelt oder benachbarten Komponenten inkl. wichtiger Aktoren/User. Idealerweise als C1-Diagramm (https://c4model.com/diagrams/system-context)._
+_Wichtige Schnittstellen zur Außenwelt oder benachbarten Komponenten inkl. wichtiger Aktoren/User. Idealerweise als C1-Diagramm (https://c4model.com/diagrams/system-context), z.B. in Mermaid, PlantUML oder was auch immer GitHub rendern kann. Alternativ gerne auch in externen Tools (miro, draw.io, ...) zeichnen und hier einbetten._
 
 _gekürztes Beispiel von https://github.com/juangcarmona/starwars-deathstar-arc42-documentation/tree/main :_
 
@@ -70,7 +70,7 @@ _Liste der wichtigesten Technologien (z.B. Programmiersprachen, Frameworks), die
 
 ### Komponenten / Module
 
-_Wichtigste Bausteine (Subsysteme, Module, Dienste, ...) des Tools/der Komponente. Hier hilft typischerweise ein C2-Diagramm, ggf. auch C3-Diagramme. Hier ist typischerweise auch ein guter Platz für Hinweise zum Deployment (z.B. „läuft als Azure Function“), sofern dieses nicht offensichtlich ist._
+_Wichtigste Bausteine (Subsysteme, Module, Dienste, ...) des Tools/der Komponente. Hier hilft typischerweise ein C2-Diagramm (https://c4model.com/diagrams/container), ggf. auch C3-Diagramme (https://c4model.com/diagrams/component), z.B. in Mermaid, PlantUML oder was auch immer GitHub rendern kann. Alternativ gerne auch in externen Tools (miro, draw.io, ...) zeichnen und hier einbetten.. Hier ist typischerweise auch ein guter Platz für Hinweise zum Deployment (z.B. „läuft als Azure Function“), sofern dieses nicht offensichtlich ist._
 
 _gekürztes Beispiel von https://github.com/juangcarmona/starwars-deathstar-arc42-documentation/tree/main :_
 
