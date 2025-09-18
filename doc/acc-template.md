@@ -21,7 +21,7 @@ _Verwendung der Vorlage:_
     * [Komponenten und Module](#komponenten)
 * [Probleme, Risiken, Technische Schulden](#probleme)
 
-## Metadaten <a name="metadata"/>
+## Metadaten <a id="metadata"/>
 
 * Ansprechperson: _An wen können sich Interessenten bei Fragen/Input/Problemen wenden? Falls nicht bekannt: aufschreiben, dass das derzeit nicht gesagt werden kann._
 * Wichtige Links:
@@ -29,26 +29,26 @@ _Verwendung der Vorlage:_
     * Bug-Tracker: _wo findet sich der Bugtracker?_
     * _gibt es sonst noch wichtige Links, z.B. auf das Live-System, auf dem das Tool/die Komponente läuft?_
 
-## Zielsetzung <a name="zielsetzung"/>
+## Zielsetzung <a id="zielsetzung"/>
 
-### Kundenwert / Geschäftszweck <a name="kundenwert"/>
+### Kundenwert / Geschäftszweck <a id="kundenwert"/>
 
 
 _Was ist der Kern-Nutzen oder Geschäftszweck des Tools/der Komponente (in sehr wenigen Sätzen)_
 
-### Wichtigste Stakeholder <a name="stakeholder"/>
+### Wichtigste Stakeholder <a id="stakeholder"/>
 
 _Liste der wichtigsten Stakeholder der Komponente, typischerweise nicht mehr als 3 Stück_
 
-### Kernfunktionen <a name="features"/>
+### Kernfunktionen <a id="features"/>
 
 _Liste der wichtigsten Funktionen der Komponente, typischerweise nicht mehr als 3 Stück_
 
-### Qualitätsanforderungen <a name="qanf"/>
+### Qualitätsanforderungen <a id="qanf"/>
 
 _Liste der wichtigsten Qualitätsanforderungen der Komponente, typischerweise nicht mehr als 3 Stück und idealerweise gemäß des arc42-Qualitätsmodells von https://quality.arc42.org/ ._
 
-### Business Context <a name="bcontext"/>
+### Business Context <a id="bcontext"/>
 
 _Wichtige Schnittstellen zur Außenwelt oder benachbarten Komponenten inkl. wichtiger Aktoren/User. Idealerweise als C1-Diagramm (https://c4model.com/diagrams/system-context), z.B. in Mermaid, PlantUML oder was auch immer GitHub rendern kann. Alternativ gerne auch in externen Tools (miro, draw.io, ...) zeichnen und hier einbetten._
 
@@ -74,17 +74,17 @@ graph TD
     deathstar -->|Controls<br> <i>Economic directives</i>| trade_federation
 ```
 
-## Lösung <a name="loesung"/>
+## Lösung <a id="loesung"/>
 
-### Kern-Entscheidungen (gute und schlechte) <a name="entscheidungen"/>
+### Kern-Entscheidungen (gute und schlechte) <a id="entscheidungen"/>
 
 _Welche wichtigen Entscheidungen zum Tool/zur Komponente haben wir in der Vergangenheit getroffen, die sich als besonders gut oder schlecht herausgestellt haben? Vor allem die schlechten Entscheidungen sind hier sehr wertvoll festzuhalten._
 
-### Technologien <a name="technologien"/>
+### Technologien <a id="technologien"/>
 
 _Liste der wichtigesten Technologien (z.B. Programmiersprachen, Frameworks), die zum Einsatz kommen._
 
-### Komponenten / Module <a name="komponenten"/>
+### Komponenten / Module <a id="komponenten"/>
 
 _Wichtigste Bausteine (Subsysteme, Module, Dienste, ...) des Tools/der Komponente. Hier hilft typischerweise ein C2-Diagramm (https://c4model.com/diagrams/container), ggf. auch C3-Diagramme (https://c4model.com/diagrams/component), z.B. in Mermaid, PlantUML oder was auch immer GitHub rendern kann. Alternativ gerne auch in externen Tools (miro, draw.io, ...) zeichnen und hier einbetten.. Hier ist typischerweise auch ein guter Platz für Hinweise zum Deployment (z.B. „läuft als Azure Function“), sofern dieses nicht offensichtlich ist._
 
@@ -108,7 +108,7 @@ graph TD
 
 ```
 
-## Probleme, Risiken, technische Schulden <a name="probleme"/>
+## Probleme, Risiken, technische Schulden <a id="probleme"/>
 
 _Wichtige bekannte Probleme, Risiken und technische Schulden._
 _Beispielsweise auch:_
