@@ -8,20 +8,20 @@ _Verwendung der Vorlage:_
 
 ## Inhaltsverzeichnis
 
-* [Metadaten](#metadata)
+* [Metadaten](#metadaten)
 * [Zielsetzung](#zielsetzung)
-    * [Kundenwert](#kundenwert)
-    * [Stakeholder](#stakeholder)
-    * [Kernfunktionen](#features)
-    * [Qualitätsanforderungen](#qanf)
-    * [Business-Kontext](#bcontext)
-* [Lösung](#loesung)
-    * [Getroffene Entscheidungen](#entscheidungen)
-    * [Verwendete Technologien](#technologien)
-    * [Komponenten und Module](#komponenten)
-* [Probleme, Risiken, Technische Schulden](#probleme)
+    * [Kundenwert / Geschäftszweck](#kundenwert--geschäftszweck)
+    * [Wichtigste Stakeholder](#wichtigste-stakeholder)
+    * [Kernfunktionen](#kernfunktionen)
+    * [Qualitätsanforderungen](#qualitätsanforderungen)
+    * [Business Context](#business-context)
+* [Lösung](#lösung)
+    * [Kern-Entscheidungen (gute und schlechte)](#kern-entscheidungen-gute-und-schlechte)
+    * [Technologien](#technologien)
+    * [Komponenten / Module](#komponenten--module)
+* [Probleme, Risiken, technische Schulden](#probleme-risiken-technische-schulden)
 
-## Metadaten <a id="metadata"/>
+## Metadaten
 
 * Ansprechperson: _An wen können sich Interessenten bei Fragen/Input/Problemen wenden? Falls nicht bekannt: aufschreiben, dass das derzeit nicht gesagt werden kann._
 * Wichtige Links:
@@ -29,26 +29,26 @@ _Verwendung der Vorlage:_
     * Bug-Tracker: _wo findet sich der Bugtracker?_
     * _gibt es sonst noch wichtige Links, z.B. auf das Live-System, auf dem das Tool/die Komponente läuft?_
 
-## Zielsetzung <a id="zielsetzung"/>
+## Zielsetzung
 
-### Kundenwert / Geschäftszweck <a id="kundenwert"/>
+### Kundenwert / Geschäftszweck
 
 
 _Was ist der Kern-Nutzen oder Geschäftszweck des Tools/der Komponente (in sehr wenigen Sätzen)_
 
-### Wichtigste Stakeholder <a id="stakeholder"/>
+### Wichtigste Stakeholder
 
 _Liste der wichtigsten Stakeholder der Komponente, typischerweise nicht mehr als 3 Stück_
 
-### Kernfunktionen <a id="features"/>
+### Kernfunktionen
 
 _Liste der wichtigsten Funktionen der Komponente, typischerweise nicht mehr als 3 Stück_
 
-### Qualitätsanforderungen <a id="qanf"/>
+### Qualitätsanforderungen
 
 _Liste der wichtigsten Qualitätsanforderungen der Komponente, typischerweise nicht mehr als 3 Stück und idealerweise gemäß des arc42-Qualitätsmodells von https://quality.arc42.org/ ._
 
-### Business Context <a id="bcontext"/>
+### Business Context
 
 _Wichtige Schnittstellen zur Außenwelt oder benachbarten Komponenten inkl. wichtiger Aktoren/User. Idealerweise als C1-Diagramm (https://c4model.com/diagrams/system-context), z.B. in Mermaid, PlantUML oder was auch immer GitHub rendern kann. Alternativ gerne auch in externen Tools (miro, draw.io, ...) zeichnen und hier einbetten._
 
@@ -74,17 +74,17 @@ graph TD
     deathstar -->|Controls<br> <i>Economic directives</i>| trade_federation
 ```
 
-## Lösung <a id="loesung"/>
+## Lösung
 
-### Kern-Entscheidungen (gute und schlechte) <a id="entscheidungen"/>
+### Kern-Entscheidungen (gute und schlechte)
 
 _Welche wichtigen Entscheidungen zum Tool/zur Komponente haben wir in der Vergangenheit getroffen, die sich als besonders gut oder schlecht herausgestellt haben? Vor allem die schlechten Entscheidungen sind hier sehr wertvoll festzuhalten._
 
-### Technologien <a id="technologien"/>
+### Technologien
 
 _Liste der wichtigesten Technologien (z.B. Programmiersprachen, Frameworks), die zum Einsatz kommen._
 
-### Komponenten / Module <a id="komponenten"/>
+### Komponenten / Module
 
 _Wichtigste Bausteine (Subsysteme, Module, Dienste, ...) des Tools/der Komponente. Hier hilft typischerweise ein C2-Diagramm (https://c4model.com/diagrams/container), ggf. auch C3-Diagramme (https://c4model.com/diagrams/component), z.B. in Mermaid, PlantUML oder was auch immer GitHub rendern kann. Alternativ gerne auch in externen Tools (miro, draw.io, ...) zeichnen und hier einbetten.. Hier ist typischerweise auch ein guter Platz für Hinweise zum Deployment (z.B. „läuft als Azure Function“), sofern dieses nicht offensichtlich ist._
 
@@ -108,7 +108,7 @@ graph TD
 
 ```
 
-## Probleme, Risiken, technische Schulden <a id="probleme"/>
+## Probleme, Risiken, technische Schulden
 
 _Wichtige bekannte Probleme, Risiken und technische Schulden._
 _Beispielsweise auch:_
